@@ -119,10 +119,10 @@ header {
     top: 0;
     z-index: 9;
     width: 100%;
-    background: rgb(43, 32, 32);
+    background: black;
 }	
 .navbar-light .navbar-brand {
-    color: rgb(255, 203, 105);
+    color: orange;
     font-size: 37px;
     position: relative;
     top:-6px;
@@ -148,7 +148,7 @@ li.nav-item {
 /*-- //nav --*/
 /*-- banner --*/
 .banner{
-    margin-top:80px;
+    margin-top:0px;
 }
 
 .d-block{
