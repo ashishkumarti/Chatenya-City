@@ -119,11 +119,13 @@ header {
     top: 0;
     z-index: 9;
     width: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgb(43, 32, 32);
 }	
 .navbar-light .navbar-brand {
-    color:#30c39e;
+    color: rgb(255, 203, 106);
     font-size: 37px;
+    position: relative;
+    top:-5px;
 }
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: #30c39e;
@@ -964,7 +966,9 @@ li.nav-item {
 }
 @media(max-width:991px){
 .navbar-light .navbar-toggler {
-    background: #fff;
+    background: rgb(255, 203, 106);
+    padding: 2px;
+    
 }
 ul.navbar-nav.ml-auto {
     background: rgba(0, 0, 0, 0.5215686274509804);
@@ -1327,8 +1331,9 @@ p.para-w3-agileits {
     font-size: 13px;
 }
 .navbar-toggler-icon {
-    width: 1em;
+    width:1em;
     height: 1em;
+    
 }
 .carousel-caption h5 {
     font-size: 20px;
