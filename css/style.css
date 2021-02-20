@@ -7,7 +7,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 /*-- Reset Code --*/
 
+
 body {
+    overflow: hidden;
     padding: 0;
     margin: 0;
     background: #FFF;
@@ -149,11 +151,15 @@ li.nav-item {
 /*-- banner --*/
 .banner{
     margin-top:0px;
+    max-width: 360px;
+    padding-top: 9%;
+    margin: 0px auto;
 }
 
 .d-block{
     width:100%;
     height: 500px;
+    
 }
 
 
@@ -437,7 +443,7 @@ a.image-gal {
 /*-- news --*/
 
 .news_grid1 {
-    background: url(../images/n1.jpg) no-repeat 0px 0px;
+    background: url(../images/b1.jpeg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 300px;
 	-webkit-transition: 0.5s all;
@@ -446,7 +452,7 @@ a.image-gal {
 	-moz-transition: 0.5s all;
 }
 .news_grid2 {
-    background: url(../images/n2.jpg) no-repeat 0px 0px;
+    background: url(../images/b2.jpeg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 300px;
 	background-position: 50% 50%;
@@ -456,7 +462,7 @@ a.image-gal {
 	-moz-transition: 0.5s all;
 }
 .news_grid3 {
-    background: url(../images/n3.jpg) no-repeat 0px 0px;
+    background: url(../images/b3.jpeg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 300px;
 	background-position: 50% 50%;
@@ -466,7 +472,7 @@ a.image-gal {
 	-moz-transition: 0.5s all;
 }
 .news_grid4 {
-    background: url(../images/n4.jpg) no-repeat 0px 0px;
+    background: url(../images/b4.jpeg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 300px;
 	background-position: 50% 50%;
@@ -476,7 +482,7 @@ a.image-gal {
 	-moz-transition: 0.5s all;
 }
 .news_grid5 {
-    background: url(../images/n5.jpg) no-repeat 0px 0px;
+    background: url(../images/b5.jpeg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 300px;
 	background-position: 50% 50%;
@@ -486,7 +492,7 @@ a.image-gal {
 	-moz-transition: 0.5s all;
 }
 .news_grid6 {
-    background: url(../images/n6.jpg) no-repeat 0px 0px;
+    background: url(../images/b6.jpeg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 300px;
 	background-position: 50% 50%;
